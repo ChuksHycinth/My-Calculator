@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: #3b3bbf;
+    color: white;
+    margin-top: 0;
+    padding: 10px 0px;
+}
+.our-form input{
+    width: 300px;
+    padding: 8px 0px;
+    border: 2px solid grey;
+}
+.our-form div{
+    padding: 10px 0px;
+}
+#operator {
+    width: 100px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white
+}
+button {
+    background-color: cadetblue;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <center>
+        <h1>Calculator</h1>
+        <form class="our-form" action="" onsubmit="return false">
+            <div>
+            <input type="text" placeholder="value 1" id="value-1">
+        </div>
+        <div>
+            <input type="text" placeholder="value 2" id="value-2">
+        </div>
+        <div>
+            <select name="" id="operator">
+                <option value="add">Add</option>
+                <option value="sub">Subtract</option>
+                <option value="mul">Mutiply</option>
+                <option value="div">Division</option>
+                <option value="pow">Power</option>
+            </select>
+        </div>
+        <!-- on clicking, the function is to calculate -->
+            <button onclick="calculate()">Calculate</button>
+        </form>
+        <div class="our-result"></div>
+        <!-- to show our result -->
+    </center>
+
+    </div>
+
+    <script src="scritp.js"></script>
+</body>
+</html>
